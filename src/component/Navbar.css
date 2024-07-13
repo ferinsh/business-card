@@ -1,0 +1,15 @@
+.navbar{
+    height: 5vh;
+    width: 100%;
+    background-color: #21222A;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    color: #5093E2;
+    align-items: center;
+}
+
+.navbar h1{
+    font-size: 1em;
+    align-items: center;
+}

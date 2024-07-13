@@ -1,0 +1,167 @@
+.main-content {
+    height: 95vh;
+    background-color: #282D35;
+    
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#business-card{
+    background-color: #1A1B21;
+    width: 35vh;
+    height: 75vh;
+    border-radius: 2vh;
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+    /* padding-top: 1.5vh; */
+    /* aspect-ratio: 16/9; */
+}
+
+#business-card > img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 1vh; */
+}
+
+#card-content {
+    height: 40vh;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#card-content:hover{
+    overflow-y: scroll;
+}
+
+#card-content::-webkit-scrollbar {
+    width: 0.5em;
+    background: #1A1B21;
+}
+
+#card-content::-webkit-scrollbar-thumb {
+    background-color: #23252C;
+    /* outline: 1px solid slategrey; */
+  }
+
+#card-details {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1vh;
+}
+
+#card-details > h1{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 1vh;
+}
+
+#card-details > h2{
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0;
+}
+
+#card-contact {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#card-contact > button {
+    height: 80%;
+    width: 40%;
+    border-radius: 1vh;
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+#card-contact > button > img{
+    height: 50%;
+}
+
+#card-contact > #email {
+    color: #374151;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+}
+
+#card-contact > #email:hover{
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+#card-contact > #github {
+    color: white;
+    background-color: #5093E2;
+    border: 0;
+}
+
+#card-contact > #github:hover{
+    color: #5093E2;
+    background-color: white;
+
+}
+
+#business-card > footer{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#business-card > footer > a{
+    height: 80%;
+    aspect-ratio: 1;
+    align-items: center;
+}
+#business-card > footer > a > img {
+    height: 70%;
+}
+
+#card-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-about > h1 {
+    color: #F5F5F5;
+    width: 100%;
+    padding-left: 3vh;
+    margin: 0;
+    margin-top: 1vh;
+    font-size: 20px;
+}
+
+#card-about > p {
+    color: #DCDCDC;
+    width: 100%;
+    padding-left: 2vh;
+    /* padding-right: 3vh; */
+    font-size: 14px;
+}
